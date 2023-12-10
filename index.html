@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+  <link rel="icon" href="./assets/images/face.jpg" />
+  <title>Portfolio</title>
+  <meta name="description" content="A portfolio template for the Unemployables community.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/typography.css">
+  <link rel="stylesheet" href="./css/utilities.css">
+
+  <script defer src="./js/script.js"></script>
+  <style>
+    body {
+      background-image: url('./assets/images/background.jpg');
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="./index.html">
+      <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+      <span class="nav-title">Chandrika Nikhade</span>
+      <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+      <a class="button" href="mailto:chandrikanikhade98@gmail.com">
+        <span class="button-text">Contact Me</span>
+      </a>
+    </a>
+  </div>
+
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
+
+    <!-- PORTFOLIO HEADER -->
+    <div id="portfolio-header">
+      <div id="portfolio-header-image-container">
+        <!-- 
+            TODO
+
+            - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
+            - Change the number to point to your Unemployable & replace the OpenSea link with your own
+            - If you aren't using an Unemployable as your image, remove the entire "a" element
+          -->
+        <img src="./assets/images/face.jpg" class="portfolio-header-image">
+
+      </div>
+
+      <!-- 
+            TODO
+
+            - Change the main-title to whatver you want
+            - Change the body-text after that to a quick introduction to what you do
+            - Edit the button text if you feel like it. It will link to the projects section below.
+          -->
+      <div id="portfolio-header-text-container">
+        <div class="header-text">
+          <span class="main-title">Hello, I am Developer.</span>
+          <div class="body-text"> <br>I am an enthusiast App and Web Developer. I love learning new technologies and meet
+            likeminded
+            people who love to do same.
+            I have experience in Web Development using html, css, and currently working on JavaScript. I also have some experience in designing User-Interface/User-Experience designs on Figma, which is really helping me to explore new sides of front-end devlopment and also widens my thinking.</div>
+        </div>
+        <a class="button" id="my-work-link">
+          <span class="button-text">Check out my projects</span>
+          <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+        </a>
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <!-- 
+        TODO
+
+        - Change the subheader-text to whatever header you want
+        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
+      -->
+    <div id="about-section">
+      <span class="subheader-text">My Background / About Me</span>
+      <div class="about-section-content">
+        <div class="body-text">
+          Hello, I am Chandrika. I am an enthusiast App/Web Developer and UI/UX Designer. I'm currently persueing B.Tech degree in Computer Science Engineering from Shri Vaishnav Vidhyapeeth Vishwavidhyalaya, Indore.
+          <br><br>I've spent the past few years diving deep into the world of programming, focusing particularly on web development. From crafting intuitive user interfaces to bringing functionality to life through code, I find immense joy in the creative process of building web applications. My journey has equipped me with a solid foundation in languages like HTML, CSS, and JavaScript, and I'm constantly exploring new frameworks and technologies to expand my skill set.<br><br>
+          Beyond the digital realm, you'll often find me outdoors, soaking up the thrill of field sports. Whether it's the strategy of swimming, or the precision of badminton, I thrive on the adrenaline and teamwork that these sports offer.
+          As I navigate through the final stretch of my academic journey, I'm eagerly seeking opportunities to merge my technical expertise
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS / MY WORK SECTION -->
+    <div id="my-work-section">
+      <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+      <span class="subheader-text">My Work / My Projects</span>
+
+      <div class="projects-container">
+        <!-- 
+            TODO
+
+            This is where the project cards live. Here's a base level project card for you to copy:
+            <div class="project-card">
+              <img src="./assets/images/IMAGE_NAME" class="project-image">
+              <div class="project-card-text-container">
+                <div class="subheader-text project-title">PROJECT_NAME</div>
+                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
+              </div>
+              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
+                <span class="button-text">Read More</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+            </div>
+
+            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
+                - IMAGE_NAME: the name of the image file in assets/images
+                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
+                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
+                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
+          -->
+        <div class="project-card">
+          <img src="./assets/images/Amazon clone.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">E-commerece mock screen design</div>
+            <div class="body-text project-card-text">Created an interective and responsive E-commerce mock screen design written in HTML,CSS which helped me learn about how CSS works and build responsive websites.
+            </div>
+          </div>
+          <!-- <a class="button" href="./project-pages/project-template.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a> -->
+        </div>
+        <div class="project-card">
+          <img src="./assets/images/new.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Wireframe prototype Mock design application</div>
+            <div class="body-text project-card-text">Created Beautiful & Interactive mock mobile app using Figma to listen music of vibes.</div>
+          </div>
+          <!-- <a class="button" href="./project-pages/project-template.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a> -->
+        </div>
+        <div class="project-card">
+          <img src="./assets/images/bob.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Prototype of Health Consultancy Application</div>
+            <div class="body-text project-card-text">Created Interactive and responsive Prototype of Health Consultancy Application using Figma which helped me to widen my thinking skills and application skills.</div>
+          </div>
+          <!-- <a class="button" href="./project-pages/project-template.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div id="footer">
+    <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+    <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/chandrika-nikhade-72a388281/">
+      <image src="./assets/icons/instagram.svg" class="footer-icon" />
+    </a>
+    <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+    <!-- <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+      <image src="./assets/icons/twitter.svg" class="footer-icon" />
+    </a> -->
+    <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+    <a class="icon-link" href="mailto:chandrikanikhade98@gmail.com">
+      <image src="./assets/icons/mail.svg" class="footer-icon" />
+    </a>
+  </div>
+
+</body>
+
+</html>
